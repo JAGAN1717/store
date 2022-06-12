@@ -1,0 +1,75 @@
+.sigin{
+    background-image: url('https://storage.googleapis.com/ninth-wares-316405.appspot.com/upload/photos/2021/07/eVAfu3qNadkXGVDfNyAI_url_image.jpg');
+    height: 800px;
+    margin-top: -20px;
+    display: flex;
+}
+.sigin h3{
+    color: white;
+    position: absolute;
+    top: 250px;
+   margin-left: 10px;
+}
+.sigin  h1{
+    color: rgb(235, 37, 37);
+    position: absolute;
+    top: 200px;
+   margin-left: 10px;
+}
+.Reg1{
+
+    background-image: url('https://storage.googleapis.com/ninth-wares-316405.appspot.com/upload/photos/2021/07/eVAfu3qNadkXGVDfNyAI_url_image.jpg');
+    border: 2px solid #1a1414;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 20px;
+    border-radius: 16px;
+    background-color: white;
+    color: black;
+}
+
+span{
+    color:black;
+    font-size: large;
+    
+}
+
+ input{
+    width: 70%;
+    height: 50px;
+    margin: 15px 0; 
+    padding: 0 10px;
+    border: 1px solid rgb(168, 163, 163);
+    border-radius: 0px;
+}
+#agree{
+    width: 15px;
+    height: 15px;
+}
+
+button{
+    width: 50%;
+    height:50px ;
+    margin: 20px 0;
+    border-radius:0px ;
+    /* background-color: coral; */
+    border: aqua;
+    background: radial-gradient(rgb(30, 170, 212),rgb(39, 233, 152));
+}
+a{
+    color: rgb(64, 64, 66);
+}
+
+.container1{
+    position: absolute;
+    right: 300px;
+}
+
+.c1{
+    background-color:green;
+    height: 100px;
+}

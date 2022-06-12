@@ -1,0 +1,153 @@
+.home{
+    background-color: rgb(19, 157, 236);
+    height: 60px;
+    color: white;
+}
+.home a{
+    color: white;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+
+.home a:hover{
+    background-color: blue;
+
+}
+
+/* .home a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+   */
+
+   .search{
+       float: left;
+       padding-top: 10px;
+       padding-left: 200px;
+       display: flex;
+   }
+   .search button{
+    background: white;
+    font-size: 17px;
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+   }
+    .search input{
+       height: 35px;
+       width: 300px;
+       
+   }
+   .search button:hover{
+       background-color: gray;
+   }
+.drobdown{
+    float: right;
+    margin-right:40px;
+    position: relative;
+    display: inline-block;
+
+}
+.drob-con{
+    margin-top: 50px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.drob-con p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .drob-con p:hover {background-color: #f1f1f1}
+
+.drobdown:hover .drob-con{
+    display: block;
+}
+.drobdown:hover .drob{
+    background-color: blue;
+}
+
+/* .indu{
+    background-image: url("https://media.istockphoto.com/photos/empty-orange-color-shopping-bag-on-the-yellow-background-copy-space-picture-id1178685067?k=20&m=1178685067&s=612x612&w=0&h=Vzg85rLPoUG2bGorUmCSChFjLS_t6xvpXvPzxFxcE-o=");
+    height: 100px;
+} */
+
+
+    .imj img{
+        width: 90px;
+        margin-left: 55px;
+        margin-top: 15px;
+    }
+    .mene{ 
+        display: flex; 
+    }
+    .mene h6{
+        width: 90px;
+        margin-left: 55px;
+        margin-top: 15px;
+    }
+
+    .btn{
+        background: black;
+        width: 40px;
+        
+    }
+    .slideShow{
+        padding: 0;
+        margin: 0;
+        background-color: floralwhite;
+    }
+    .slid-frame{
+        overflow: hidden;
+          
+    }
+    /* slid animate */
+    @-webkit-keyframes slide_animation{
+        0% {left:0px;}
+        10% {left: 0px;}
+        20% {left: 1200px;}
+        30% {left: 1200px ;}
+        40% {left: 2400px;}
+        50% {left: 2400px;}
+        60% {left: 1200px;}
+        70% {left: 1200px;}
+        80% {left: 0px;}
+        90% {left: 0px;}
+        100% {left: 0px;}
+    }
+    .mySlides {
+        /* display:none; */
+        width: 1200px;
+        height: 400px;
+        position: relative;
+        float: left;
+    }
+
+    .slid-img{
+        width: 3600px;
+        height: 400px;
+        position: relative;
+        -webkit-animation-name: slide_animation ;
+        -webkit-animation-duration: 33s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: alternate;
+        -webkit-animation-play-state: running;
+    }
+   .trend{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 1330px;
+    height: 350px;
+    background:whitesmoke;
+    align-items: center;
+   }
